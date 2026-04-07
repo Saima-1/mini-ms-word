@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(to top left,#ff99ac,#ff6a88,#ffb28b);
+    background-repeat: no-repeat;
+    height: 606px;
+}
+
+
+
+#container{
+    background-color: rgba(100, 102, 235, 0.438) ;
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px gray;
+}
+h1{
+    color: rgb(18, 8, 151);
+    text-shadow: 10px 8px 5px rgb(180, 24, 110);
+}
+
+#navbar{
+    width: 600px;
+    height: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+ 
+  
+}
+#items{
+    position: relative;
+    top: 20px;
+    
+}
+#bgcolor{
+    width: 30px;
+    height: 7px;
+    border: none;
+    position: relative;
+    bottom: 5px;
+    left: 270px;
+    
+}
+  #filler{
+    position: relative;
+    top: 10px;
+    
+  }  
+  #textcolor{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+  }
+  #color{
+    width: 30px;
+    height: 7px;
+    position: relative;
+    right: 37px;
+    top: 15px;
+  }
+  #text{
+    position: relative;
+    right: 20px;
+  }
