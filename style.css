@@ -1,37 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+
 body{
-    background-image: linear-gradient(to top left,#ff99ac,#ff6a88,#ffb28b);
+    background-image: linear-gradient(to top left,red,pink,purple);
     background-repeat: no-repeat;
-    height: 606px;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 #container{
-    background-color: rgba(100, 102, 235, 0.438) ;
-    position: relative;
-    top: 100px;
-    width: 1000px;
-    padding: 20px;
+    background-color: rgba(238, 34, 204, 0.404);
+    
+    width: 800px;
+    border: 2px solid rgb(138, 4, 179);
+    box-shadow: 10px 10px 5px gray;
     border-radius: 20px;
-    box-shadow: 5px 10px 10px gray;
-}
-h1{
-    color: rgb(18, 8, 151);
-    text-shadow: 10px 8px 5px rgb(180, 24, 110);
-}
 
-#navbar{
-    width: 600px;
-    height: 80px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
- 
-  
-}
+    
+
+
+} 
+h1{
+    color: rgb(85, 3, 102);
+    text-shadow: 10px 8px 5px rgb(180, 24, 110);
+    text-align: center;
+} 
+
+
 #items{
-    position: relative;
-    top: 20px;
+   background-color: rgb(194, 10, 231);
+   display: flex;
+    justify-content:center;
+    align-items: center;
+  flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 20px ;
+    gap: 5px;
     
 }
 #bgcolor{
@@ -39,28 +53,53 @@ h1{
     height: 7px;
     border: none;
     position: relative;
-    bottom: 5px;
-    left: 270px;
+    top: 20px;
+    right: 40px;
     
+    
+    
+} 
+button:hover{
+  background-color: gray;
+  color: white;
+  cursor: pointer;
 }
-  #filler{
-    position: relative;
-    top: 10px;
     
-  }  
-  #textcolor{
-    font-size: 25px;
+   #filler{
     position: relative;
-    top: 5px;
-  }
-  #color{
+   }   
+   #textcolor{
+    font-size: 20px;
+    position: relative;
+    top: -4px;
+   
+  } 
+   #color{
     width: 30px;
     height: 7px;
     position: relative;
-    right: 37px;
+    right: 30px;
     top: 15px;
-  }
-  #text{
+
+  
+  } 
+   #text{
     position: relative;
     right: 20px;
+  } 
+  #para{
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+      margin-bottom: 10px;
+    padding: 10px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px gray;
+      font-size: 20px;
+      color: black;
+      overflow-y: scroll;
+      outline: none;
+
+    
   }

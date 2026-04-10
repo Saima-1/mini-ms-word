@@ -43,6 +43,3 @@ justify.addEventListener('click',()=>{
 bgcolor.addEventListener("input",()=>{
     container.style.backgroundColor=bgcolor.value;
 })
-text.addEventListener("input",()=>{
-    para.style.textTransform=text.value;
-})
